@@ -1,5 +1,5 @@
 
-// Problem link: https://leetcode.com/problems/two-sum/
+// Problem link: https://leetcode.com/problems/valid-parentheses/
 
 // Brute force - O(n^2) time and O(1) space complexity
 // class Solution {
