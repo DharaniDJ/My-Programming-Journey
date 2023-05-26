@@ -2,14 +2,14 @@
 // Problem link: https://leetcode.com/problems/valid-anagram/
 
 // Sort and Compare - O(n*logn) time and O(1) space complexity
-class Solution {
-public:
-    bool isAnagram(string s, string t) {
-        sort(s.begin(),s.end());
-        sort(t.begin(),t.end());
-        return s==t;
-    }
-};
+// class Solution {
+// public:
+//     bool isAnagram(string s, string t) {
+//         sort(s.begin(),s.end());
+//         sort(t.begin(),t.end());
+//         return s==t;
+//     }
+// };
 
 
 // Count array - O(n) time and O(n) space complexity

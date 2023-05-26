@@ -2,21 +2,21 @@
 // Problem link: https://leetcode.com/problems/merge-two-sorted-lists/
 
 // Recursion - O(n+m) time and O(n+m) space complexity
-class Solution {
-public:
-    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        if(!list1) return list2;
-        if(!list2) return list1;
+// class Solution {
+// public:
+//     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+//         if(!list1) return list2;
+//         if(!list2) return list1;
 
-        if(list1->val > list2->val){
-            list2->next = mergeTwoLists(list1,list2->next);
-            return list2;
-        }else{
-            list1->next = mergeTwoLists(list1->next,list2);
-            return list1;
-        }
-    }
-};
+//         if(list1->val > list2->val){
+//             list2->next = mergeTwoLists(list1,list2->next);
+//             return list2;
+//         }else{
+//             list1->next = mergeTwoLists(list1->next,list2);
+//             return list1;
+//         }
+//     }
+// };
 
 // Iteration - O(n+m) time and O(1) space complexity
 class Solution {
