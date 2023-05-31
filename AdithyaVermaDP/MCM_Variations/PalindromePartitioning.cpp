@@ -62,7 +62,9 @@ int solve(string s, int i, int j){
     int left, right;
     for(int k=i;k<=j-1;k++){
         left = dp[i][k]!=-1 ? dp[i][k] : solve(s,i,k);
+        dp[i][k] = left;
         right = dp[k+1][j]!=-1 ? dp[k+1][j] : solve(s,k+1,j);
+        dp[k+1][j] = right;
         int temp = left+right+1;
         ans = min(ans,temp);
     }
