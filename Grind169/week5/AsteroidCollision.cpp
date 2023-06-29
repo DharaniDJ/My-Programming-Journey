@@ -45,3 +45,37 @@ public:
         return res;
     }
 };
+
+// 2 pointer : O(n) time and O(1) space complexity
+class Solution {
+public:
+    vector<int> asteroidCollision(vector<int>& asteroids) {
+        int n = asteroids.size();
+        int j = -1;
+        
+        for(int i=0;i<n;){
+            int a = asteroids[i];
+
+            if(j==-1 || a>0 || asteroids[j]<0){
+                j++;
+                asteroids[j]=a;
+                i++;
+            }
+            // asteroids[i] is negative but its sum with last asteroid at j is positive so we just ignore the currently read asterod at i.
+            else if(asteroids[j]+a>0){
+                i++;
+            }
+            // two equal asteroid in oposite direction collide and nothing is left, so ith one is not kept, and jth one already kept is removed.
+            else if(asteroids[j]+a==0){
+                j--;
+                i++;
+            }
+            // asteroids[i] is negative and its sum with last asteroid at j is also negative so we are sure the jth astroid we kept needs to be removed but, not sure about if ith one should be kept here, so we continue decrementing j, till we find the correct position to keep the current ith aestroid.
+            else if(asteroids[j]+a < 0){
+                j--;
+            }
+        }
+        vector<int> res(asteroids.begin(),asteroids.begin()+j+1);
+        return res;
+    }
+};
