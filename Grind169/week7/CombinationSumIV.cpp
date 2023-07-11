@@ -1,7 +1,7 @@
 
 // Problem Link : https://leetcode.com/problems/combination-sum-iv
 
-// Approach(Recursion) : O(2^n) time and O(n) space complexity
+// Approach(Recursion) : O(2^n) time and O(t) space complexity
 class Solution {
 public:
     int getSumCombo(vector<int> &nums, int target){
@@ -19,7 +19,7 @@ public:
     }
 };
 
-// (Approach2)Top Down DP(Recursion + Memoization) : O(n) time and O(n) space complexity
+// (Approach2)Top Down DP(Recursion + Memoization) : O(t*n) time and O(t) space complexity
 class Solution {
 public:
     int getSumCombo(vector<int> &nums, int target, vector<int> &dp){
@@ -40,7 +40,7 @@ public:
     }
 };
 
-// Approach3(Bottomup DP) : O(n) time and O(n) space complexity
+// Approach3(Bottomup DP) : O(t*n) time and O(t) space complexity
 
 // dp[i] where each element corresponds to the result of function combs(i), i.e. the number of combinations that sum up to the value of i.
 
