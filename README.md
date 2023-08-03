@@ -42,10 +42,4 @@ Feel free to explore this repository to gain insights into my programming progre
 
 ## Connect with Me
 
-If you'd like to connect with me or discuss anything related to my programming journey, you can find me on LinkedIn [here](https://www.linkedin.com/in/yourusername).
-
----
-
-Thank you for joining me on this exciting programming journey! Let's continue learning and growing together in the vast world of software development.
-
-#programmingjourney #programminglanguages #datastructures #designpatterns #systemdesign #distributedsystems #github #opensource
+If you'd like to connect with me or discuss anything related to my programming journey, you can find me on LinkedIn [here](https://www.linkedin.com/in/dharani-chinta/).
