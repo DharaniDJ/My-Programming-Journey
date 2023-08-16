@@ -1,7 +1,7 @@
 
 // Problem Link : https://leetcode.com/problems/unique-paths/?envType=study-plan-v2&envId=dynamic-programming
 
-// Approach1(Recursion) : O(2^(m*m)) time and O(m*n) space complexity
+// Approach1(Recursion) : O(2^(n+m)) time and O(m*n) space complexity
 class Solution {
 public:
     int uniquePaths(int m, int n) {
