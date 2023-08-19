@@ -1,53 +1,34 @@
 
 // Problem link: https://leetcode.com/problems/two-sum/
 
-// Approach 1 with vector - O(n) time and O(n) space complexity
+// Brute force - O(n^2) time and O(1) space complexity
 // class Solution {
 // public:
-//     bool isValid(string str) {
-//         int n = str.size();
-//         unordered_map<char,char> mp;
-//         vector<char> st;
-//         mp['(']=')';
-//         mp['{']='}';
-//         mp['[']=']';
-//         for(char c:str){
-//             if(mp.count(c)) st.push_back(c);
-//             else{
-//                 if(st.size()==0) return false;
-//                 else{
-//                     char tp = st.back();
-//                     if(mp[tp]==c) st.pop_back();
-//                     else return false;
-//                 }
+//     vector<int> twoSum(vector<int>& nums, int target) {
+//         int n = nums.size();
+//         for(int i=0;i<(n-1);i++){
+//             for(int j=i+1;j<n;j++){
+//                 if(nums[i]+nums[j]-target == 0) return {i,j};
 //             }
 //         }
-//         return (st.size()==0);
+//         return {};
 //     }
 // };
 
 
-// Approach 2 with stack - O(n) time and O(n) space complexity
+// One-pass Hash Table - O(n) time and O(n) space complexity
 class Solution {
 public:
-    bool isValid(string str) {
-        int n = str.size();
-        unordered_map<char,char> mp;
-        stack<char> st;
-        mp['(']=')';
-        mp['{']='}';
-        mp['[']=']';
-        for(char c:str){
-            if(mp.count(c)) st.push(c);
-            else{
-                if(st.empty()) return false;
-                else{
-                    char tp = st.top();
-                    if(mp[tp]==c) st.pop();
-                    else return false;
-                }
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int,int> mp;
+        int n = nums.size();
+        for(int i=0;i<n;i++){
+            int k = target-nums[i];
+            if(mp.find(k)!=mp.end()){
+                return {mp[k],i};
             }
+            mp[nums[i]]=i;
         }
-        return st.empty();
+        return {};
     }
 };
