@@ -14,7 +14,7 @@ The **My-Programming-Journey** repository is organized into different sections t
 
 ### Programming Languages
 
-- Each programming language I've explored has its own folder, containing sample code and small projects to demonstrate my proficiency.
+- Each programming language I've explored has its own folder, containing sample code with multiple approaches and small projects to demonstrate my proficiency.
 
 ### Data Structures
 
