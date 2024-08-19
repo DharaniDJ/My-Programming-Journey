@@ -38,7 +38,7 @@ The following readme's will cover the following:
     - Retrieval
     - Generation
 
-![RAG-overall-roadmap](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets.assets/RAG/RAG-overall-roadmap.png)
+![RAG-overall-roadmap](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/assets/RAG/RAG-overall-roadmap.png)
 
 ## Interactive Code Walkthrough
 

@@ -1,6 +1,6 @@
 # My Programming Journey
 
-![Programming Journey](/assests//images.jpeg)
+![Programming Journey](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/assets/welcome-image.jpeg)
 
 Welcome to my **My-Programming-Journey** repository! This repository is a collection of my programming progress, showcasing my growth and learning in various areas of software development. It contains everything from programming languages, data structures, design patterns, system design concepts, to distributed systems.
 
