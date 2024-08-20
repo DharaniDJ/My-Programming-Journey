@@ -49,8 +49,6 @@ The readme includes interactive code walkthroughs. Below is a quick overview of 
 3. **Retriever and Prompt**: Define a retriever and a prompt for RAG.
 4. **LLM and Chain Setup**: Set up the LLM and the chain to process the input question, retrieve relevant documents, and generate an answer.
 
-### Example Code
-
 ### Environment
 
 `(1) Packages`
@@ -137,6 +135,15 @@ rag_chain = (
 # Question
 rag_chain.invoke("What is Task Decomposition?")
 ```
+
+### Useful links for reference
+
+- https://huggingface.co/blog/mixtral
+- https://x.com/RihardJarc/status/1778082161595208124
+- https://x.com/karpathy/status/1707437820045062561?s=20
+
+- https://docs.smith.langchain.com/
+- https://python.langchain.com/docs/tutorials/rag/
 
 ## Conclusion
 
