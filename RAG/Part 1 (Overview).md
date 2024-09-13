@@ -6,14 +6,14 @@ Welcome to the **RAG From Scratch** series! This series, will walk you through t
 
 RAG is motivated by the fact that large language models (LLMs) haven't seen all the data you may care about, such as private or very recent data. Despite being pre-trained on a vast number of tokens, LLMs are limited in their knowledge of specific or up-to-date information.
 
-![world-data](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/RAG/world-data.png)
+![world-data](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/assets/RAG/world-data.png)
 
 ### Key Concepts
 
 1. **Context Windows**: LLMs have context windows that are getting increasingly large, allowing them to fit information from external sources.
 2. **Kernel of a New Operating System**: LLMs can be thought of as the kernel of a new kind of operating system, with the ability to connect to external data being a central capability.
 
-![kernal-to-external-data](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/RAG/kernal-to-external-data.png)
+![kernal-to-external-data](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/assets/RAG/kernal-to-external-data.png)
 
 ## RAG Workflow
 
@@ -23,7 +23,7 @@ RAG typically involves three stages:
 2. **Retrieval**: Relevant documents are retrieved based on the input query.
 3. **Generation**: Retrieved documents are fed into an LLM to produce an answer grounded in those documents.
 
-![retrieval-augmented-generation](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/RAG/retrieval-augmented-generation.png)
+![retrieval-augmented-generation](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/assets/RAG/retrieval-augmented-generation.png)
 
 ## Future Topics
 
@@ -38,7 +38,7 @@ The following readme's will cover the following:
     - Retrieval
     - Generation
 
-![RAG-overall-roadmap](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/RAG/RAG-overall-roadmap.png)
+![RAG-overall-roadmap](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets.assets/RAG/RAG-overall-roadmap.png)
 
 ## Interactive Code Walkthrough
 
