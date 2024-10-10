@@ -38,6 +38,8 @@ To establish the relationship between documents and queries, we use numerical re
 
 ## Part 2: Indexing
 
+Below is a quick code walkthrough for indexing:
+
 ```python
 # Documents
 question = "What kinds of pets do I like?"
