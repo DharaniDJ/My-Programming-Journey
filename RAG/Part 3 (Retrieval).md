@@ -21,6 +21,8 @@ Retrieval involves fetching documents relevant to an input question based on the
 
 ![vectorstores](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/assets/RAG/vectorstores.png)
 
+### LangChain Integrations
+
 ![langchain-integrations](https://github.com/DharaniDJ/My-Programming-Journey/blob/assets/assets/RAG/langchain-integrations.png)
 
 ## Part 3: Retrieval
