@@ -1,7 +1,0 @@
-1) MCM
-2) Printing MCM
-3) Evaluate Expr to True/Boolean Parenthesization
-4) Min/Max value of an Expr
-5) Palindrome Partitioning
-6) Scramble String
-7) Egg Dropping Problem
