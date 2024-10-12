@@ -1,4 +1,3 @@
-```md
 # RAG From Scratch: Part 4 (Generation)
 
 Welcome to the fourth video in the **RAG From Scratch** series by Lance from Lang Chain. This video focuses on **generation**, the final component of RAG pipelines following indexing and retrieval.
