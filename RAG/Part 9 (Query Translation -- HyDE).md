@@ -1,6 +1,6 @@
 # RAG from Scratch: Part 9 - Query Translation: HyDE
 
-Hi, this is Lance from LangChain. This is the fifth video focused on query translation in our RAG from scratch series. We're going to be talking about a technique called HyDE.
+Welcome to the ninth part in the **RAG From Scratch** series. We're going to be talking about a technique called HyDE.
 
 ## Introduction to Query Translation
 
