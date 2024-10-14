@@ -1,6 +1,6 @@
 # RAG from Scratch: Part 11 - Query Structuring
 
-Welcome to the 11th part of our RAG from scratch video series focused on query structuring.
+Welcome to the 11th part of our RAG from scratch series focused on query structuring.
 
 ## Introduction to Query Structuring
 
