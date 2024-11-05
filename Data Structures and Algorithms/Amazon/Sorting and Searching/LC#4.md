@@ -26,10 +26,13 @@ We are given two sorted arrays `nums1` and `nums2` with sizes `m` and `n`, respe
 - **Pattern**: We can use binary search on one of the arrays (preferably the smaller one) and partition the arrays to find the correct median.
 
 #### **3. Plan**
+
+**Intuition**:
 To find the median efficiently, we’ll take advantage of the sorted properties and use binary search to partition the arrays without merging them:
 we need to find a point of partition in both arrays such that the maximum of the smaller half is less than or equal to the minimum of the larger half.
 
 Instead of partitioning over the merged arrays, we can only focus on partitioning the smaller array
+
 1. **Choose the Smaller Array for Binary Search**: To minimize the search range, always perform binary search on the smaller array (`nums1` if `m < n`), as this reduces the number of partition points we need to check.
 
 2. **Partitioning the Arrays**:
